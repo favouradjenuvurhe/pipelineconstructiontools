@@ -15,8 +15,13 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/style.css">
+   
+@media (max-width: 768px) {
+  .box-container {
+    grid-template-columns: 1fr !important;
+  }
+}
 </head>
 
 <body>
@@ -103,13 +108,15 @@
 
    
 
-   <!-- tools store section starts -->
+   
+         
+<!-- tools store section starts -->
 
 <section class="pricing" id="pricing" style="padding: 2rem;">
 
    <h1 class="heading" style="text-align: center; font-size: 2rem;"> Equipment Tools Store </h1>
 
-   <div class="box-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+   <div class="box-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
 
       <!-- Product 1 -->
       <div class="box">
@@ -146,10 +153,7 @@
          <a href="purchase.html" class="btn">Purchase Tool</a>
       </div>
 
-      <!-- Dummy Products 4–20 -->
-      <!-- You can change image, titles, and prices as needed -->
-      <!-- Here's an example for 4–6, continue the pattern for 7–20 -->
-
+      <!-- Product 4 -->
       <div class="box">
          <img src="https://via.placeholder.com/400x250" alt="Tool 4" style="width:100%; height:auto;">
          <h3>Hydraulic Jack</h3>
@@ -160,39 +164,7 @@
          <a href="purchase.html" class="btn">Purchase Tool</a>
       </div>
 
-      <div class="box">
-         <img src="https://via.placeholder.com/400x250" alt="Tool 5" style="width:100%; height:auto;">
-         <h3>Portable Air Compressor</h3>
-         <div class="price"><span>$</span>1,250</div>
-         <div class="list">
-            <p>Oil-free motor</p>
-         </div>
-         <a href="purchase.html" class="btn">Purchase Tool</a>
-      </div>
-
-      <div class="box">
-         <img src="https://via.placeholder.com/400x250" alt="Tool 6" style="width:100%; height:auto;">
-         <h3>Heavy-Duty Chainsaw</h3>
-         <div class="price"><span>$</span>2,150</div>
-         <div class="list">
-            <p>Electric starter</p>
-         </div>
-         <a href="purchase.html" class="btn">Purchase Tool</a>
-      </div>
-
-      <!-- Add Products 7 to 20 following the same structure -->
-      <!-- Copy & paste the box template, change content accordingly -->
-
-      <!-- Example for 20th product -->
-      <div class="box">
-         <img src="https://via.placeholder.com/400x250" alt="Tool 20" style="width:100%; height:auto;">
-         <h3>Laser Level</h3>
-         <div class="price"><span>$</span>330</div>
-         <div class="list">
-            <p>Self-leveling</p>
-         </div>
-         <a href="purchase.html" class="btn">Purchase Tool</a>
-      </div>
+      <!-- Continue adding up to 20 products using this same box structure -->
 
    </div>
 
@@ -202,7 +174,7 @@
 
 </section>
 
-<!-- tools store section ends -->
+<!-- tools store section ends --><!-- tools store section ends -->
 
 
 
